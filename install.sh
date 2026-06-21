@@ -2,6 +2,9 @@
 
 source ./utils.sh
 
+# Update & Upgrade
+sudo pacman -Syu
+
 # AUR helper(yay)
 if command -v yay &> /dev/null; then
 log " yay already exists"
@@ -13,8 +16,6 @@ cd yay && makepkg -si
 cd ..
 fi
 
-# Update & Upgrade
-sudo pacman -Syu
 
 # Packages
 pacman_packages=(
