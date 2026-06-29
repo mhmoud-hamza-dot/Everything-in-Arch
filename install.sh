@@ -19,7 +19,7 @@ fi
 
 # Packages
 pacman_packages=(
-fzf zoxide fastfetch starship reflector openssh
+fzf zoxide fastfetch starship reflector openssh mangohud
 )
 
 # AUR Packages
