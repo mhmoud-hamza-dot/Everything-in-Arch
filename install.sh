@@ -27,7 +27,6 @@ aur_packages=(
 preload zram-generator google-chrome
 zen-browser brave-bin vim obs-studio picom
 qbittorrent protonup-qt faugus-launcher discord
-gamemode lib32-gamemode
 )
 
 # Installing
