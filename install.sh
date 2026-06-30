@@ -24,8 +24,8 @@ fzf zoxide fastfetch starship reflector openssh mangohud
 
 # AUR Packages
 aur_packages=(
-preload zram-generator google-chrome
-zen-browser brave-bin vim obs-studio picom
+preload google-chrome
+zen-browser-bin brave-bin vim obs-studio picom
 qbittorrent protonup-qt faugus-launcher discord
 )
 

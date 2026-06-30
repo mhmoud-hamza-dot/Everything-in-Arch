@@ -2,10 +2,6 @@
 
 source ./utils.sh
 
-# zram
-echo "[zram0]
-zram-size = 2048" | sudo tee /etc/systemd/zram-generator.conf
-
 # zoxide
 if ! grep -q "zoxide init bash" ~/.bashrc; then
     echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
